@@ -1,6 +1,6 @@
 #include <time.h>
 #include <stdlib.h>
-#include <srdio.h>
+#include <stdio.h>
 /**
  * main - lowercase alphabet without e and q.
  *
