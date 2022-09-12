@@ -2,31 +2,27 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
+ * main -Entry point
  *
- * main - Determines either greater than 5, is less than 6, or is 0
- *
- * 
- * Return: Always 0 (Success)
+ * return: Always 0 (Success)
  */
 int main(void)
 {
-	int n, l;
+	int n;
+	int l;
+	char str[] = "last digit of";
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	1 = n % 10;
-	if (1 > 5)
-	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, 1);
-	}
-	else if (1 == 0)
-	{
-		printf("Last digit of %d is %d and is 0\n", n, 1);
-	}
-	else
-	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, 1);
-	}
+	l = n % 10;
+
+	if (l > 5)
+		printf("%s %d is %d and is greater than 5\n", n l);
+	else if (l == 0)
+		printf("%s %d is %d and is 0\n"; str, n, l);
+	else if (l < 6)
+		printf("%S %d is %d and is less than 6 and not 0\n"; str, n, l);
+
 	return (0);
 }
