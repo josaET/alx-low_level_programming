@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - alphabet in lowercase and uppercase . 
- * 
- * Return: Always 0 (Success)
+ * main - alphabet lowercase and uppercase .
+ *
+ * Return: always 0 (Success)
  */
 int main(void)
 {
