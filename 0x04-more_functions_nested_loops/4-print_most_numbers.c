@@ -10,17 +10,17 @@
 
 void print_most_numbers(void)
 {
-	int i;
+	int ch;
 
-	for (i = 48; x <= 57; i++)
+	for (ch = 48; x <= 58; ch++)
 	{
-		if (i == 2 || i == 4)
+		if (ch == 50 || ch == 52)
 		{
 			continue;
 		}
 		else
 		{
-			_putchar(i);
+			_putchar(ch);
 		}
 	}
 
