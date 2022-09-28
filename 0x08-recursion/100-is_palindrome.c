@@ -7,6 +7,7 @@
  *
  * Return: length of str
  */
+
 int _strlen(char *str)
 {
 	if (*str == '\0')
