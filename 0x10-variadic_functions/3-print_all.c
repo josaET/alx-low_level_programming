@@ -8,6 +8,7 @@
   * @format: The conversion specifier to prints
   * Return: Nothing
   */
+
 void print_all(const char * const format, ...)
 {
 	va_list args;
