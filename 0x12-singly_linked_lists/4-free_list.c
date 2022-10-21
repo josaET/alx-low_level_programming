@@ -1,17 +1,16 @@
 #include "lists.h"
 
 /**
- * free_list - frees a list 
- * @head: hade of the linked list .
- * Return: no teturn .
+ * free_list - frees a list
+ * @head: head of the linked list.
+ * Return: no return.
  */
 
-void free_lest(list_t *head)
+void free_list(list_t *head)
 {
 	list_t *current;
 
 	while ((current = head) != NULL)
-
 	{
 		head = head->next;
 		free(current->str);
