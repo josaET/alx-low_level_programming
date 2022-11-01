@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * not_close - prints error.
  * @fd: value to print.
