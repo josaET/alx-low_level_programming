@@ -6,6 +6,7 @@
  * @argv: array of arguments
  * Return: Always 0 (Success)
  */
+
 int main(int argc, char *argv[])
 {
 	int fd_r, fd_w, r, a, b;
