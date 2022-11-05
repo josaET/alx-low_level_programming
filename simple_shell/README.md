@@ -72,7 +72,7 @@ $
 ## List of allowed functions and system calls
 
 <details>
-## <summary>List </summary>
+<summary>List </summary>
   
 ```
 access (man 2 access)                           
@@ -109,6 +109,10 @@ write (man 2 write)
 ```
 </details>
 
+## Compilation 
+Your shell will be compiled this way:
+
+`gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh`
 
 
 
