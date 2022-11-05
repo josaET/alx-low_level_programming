@@ -72,8 +72,8 @@ $
 ## List of allowed functions and system calls
 
 ```
-- access (man 2 access)                           chdir (man 2 chdir)
-
+-access (man 2 access)                           
+chdir (man 2 chdir)
 close (man 2 close)
 closedir (man 3 closedir)
 execve (man 2 execve)
@@ -104,7 +104,7 @@ wait3 (man 2 wait3)
 wait4 (man 2 wait4)
 write (man 2 write)
 ```
-
+<! >
 
 
 
