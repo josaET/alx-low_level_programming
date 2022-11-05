@@ -111,7 +111,6 @@ write (man 2 write)
 
 ## Compilation 
 Your shell will be compiled this way:
-
 `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh`
 
 
