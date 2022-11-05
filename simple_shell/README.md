@@ -72,10 +72,10 @@ $
 ## List of allowed functions and system calls
 
 <details>
-<summary>List</summary>
+<summary>## List</summary>
   
 ```
--access (man 2 access)                           
+access (man 2 access)                           
 chdir (man 2 chdir)
 close (man 2 close)
 closedir (man 3 closedir)
