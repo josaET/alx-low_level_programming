@@ -72,7 +72,7 @@ $
 ## List of allowed functions and system calls
 
 <details>
-<summary> ## List </summary>
+## <summary>List </summary>
   
 ```
 access (man 2 access)                           
