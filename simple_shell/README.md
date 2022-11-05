@@ -1,11 +1,14 @@
 # ALX Simple Shell Team Project
 # Simple_shell
 ## Resources
+
 ###### Read or watch:
 - [Unix Shell](https://en.wikipedia.org/wiki/Unix_shell) 
 - [Thompson Shell](https://en.wikipedia.org/wiki/Thompson_shell)
 - [ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson)
+
 ###### General
+
 - Who designed and implemented the original Unix operating system
 - Who wrote the first version of the Unix Shell
 - Who inbented the B programming language (the direct predecessor to the c programming language)
@@ -19,4 +22,20 @@
 - How does the Shell use the `PATH` to find the programs
 - How to execute another program with the `execve` system call
 - How to suspend the execution of a process until one of its children terminaates 
-- What is 'EOF' /"end-of-file"?
+- What is `EOF` /"end-of-file"?
+
+## Requirements
+
+######General
+
+- Allowed editors: vi, vim, emacs
+- All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+- All your files should end with a new line
+- A README.md file, at the root of the folder of the project is mandatory
+- Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+- Your shell should not have any memory leaks
+- No more than 5 functions per file
+- All your header files should be include guarded
+- Use system calls only when you need to (why?)
+- Write a README with the description of your project
+- You should have an AUTHORS file at the root of your repository, listing all individuals having contributed content to the repository. Format, see [Docker](https://github.com/moby/moby/blob/master/AUTHORS)
