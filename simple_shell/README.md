@@ -2,7 +2,7 @@
 # Simple_shell
 ## Resources
 ###### Read or watch:
-- Unix Shell
+- [Unix Shellw] (https://en.wikipedia.org/wiki/Unix_shell)
 - Thompson Shell
 - ken Thompson
 ###### General
