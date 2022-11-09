@@ -57,6 +57,8 @@ typedef struct passinfo
 	int histcount;
 } info_t;
 
+extern char **environ;
+
 /**
  * struct liststr - singly linked list
  * @num: the number field
@@ -101,5 +103,10 @@ int populate_env_list(info_t *);
 char **get_environ(info_t *);
 int _unsetenv(info_t *, char *);
 int _setenv(info_t *, char *, char *);
+
+/* exits.c */
+char *_strncpy(char *, char *, int);
+char *_strncat(char *, char *, int);
+char *_strchr(char *, char);
 
 #endif
