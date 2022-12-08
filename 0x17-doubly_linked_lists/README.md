@@ -38,8 +38,6 @@ Don’t forget to push your header file
 
 ## Files
 All of the following files are scripts and programs written in C:
-`
-```
 
 
 | Filename | Description |
@@ -57,5 +55,3 @@ All of the following files are scripts and programs written in C:
 | 102-result | Stores the largest palindrome made from the product of two 3-digit numbers |
 | 103-keygen.c | Generates a keygen for `crackme5` executable file |
 
-
-```
